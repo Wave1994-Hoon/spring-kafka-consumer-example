@@ -1,6 +1,7 @@
 kafka:
   topic:
-    product: Kafka-tutorial-topic       # TODO: Change topic
+    name: Kafka-tutorial-topic       # TODO: Change topic
+    thread: 10
   consumer:
     bootstrap-servers: 127.0.0.1:100001 # TODO: Change bootstrap server
     group-id: kafka-tutorial-group      # TODO: Change group-id
